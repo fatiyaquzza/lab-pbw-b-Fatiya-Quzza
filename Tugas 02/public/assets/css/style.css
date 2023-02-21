@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: rgb(156, 179, 229);
+    background-color: rgb(138, 167, 232);
     color: rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large
@@ -8,7 +8,7 @@ body{
 
 header,footer{
     color: aliceblue;
-    background-color:rgb(130, 161, 248);
+    background:linear-gradient(90deg, rgb(19, 33, 66) 0%, rgb(42, 82, 169) 35%, rgb(154, 216, 228) 100%);
     text-align: center;
 }
 
@@ -25,10 +25,10 @@ header{
     width:100%;
     margin-bottom:20px;
     
-  }
+}
 
 th,table{
-    background-color: rgb(191, 212, 251);
+    background-color: rgb(151, 187, 255);
 }
 
 table, td{
@@ -37,13 +37,14 @@ table, td{
 
 td{
     background-color: rgb(255, 255, 255);
+    vertical-align: top;
+    padding: 5px 2px;
 }
 
 table{
     margin-left: 1%;
-
+    padding: 0px 2px;
 }
-
 
 .card{
     margin: 20px 20px;
